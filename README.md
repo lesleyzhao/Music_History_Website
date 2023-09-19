@@ -1,6 +1,9 @@
 
 # Music History Educational Website
-
+Live link to this website:
+* Knowledge page: https://lesleyzhao.github.io/Music_History_Website/docs/about.html
+* Contact-me page: https://lesleyzhao.github.io/Music_History_Website/docs/contact.html
+* Home page: https://lesleyzhao.github.io/Music_History_Website/docs/index.html
 
 ### Introduction of this website
 * This website aims to help students in New York University general education classes to study classical music history based on timeline and musical movements.
