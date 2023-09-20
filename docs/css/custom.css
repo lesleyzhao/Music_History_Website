@@ -87,10 +87,11 @@ table{
 
 p{
 	text-indent: 25px;
-	text-align: left;
+	text-align: justify;
 	margin:30px;
 	/*font-family: textFont; */
 }
+
 
 
 li{
@@ -327,9 +328,32 @@ body{
   .slide-content{
     margin: 0 10px;
   }
+  
   .swiper-navBtn{
     display: none;
   }
+
+  .description{
+    text-align: justify;
+  }
+  h2{
+    padding-top: 0px;
+  }
+  h1{
+    font-size: 2rem !important;
+    text-align: center !important;
+  }
+  .row{
+    text-align: center !important;
+    align-items: center;
+  }
+  h4{
+    text-align: left !important;
+  }
+  p{
+    text-align: justify;
+  }
+
 }
 
 
