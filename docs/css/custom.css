@@ -176,7 +176,13 @@ audio{
 	background: F9AEAE;
 	z-index: 1000;
 	position: fixed;
+
 }
+
+#head .navbar{
+  background-color: #F2EDF5 !important;
+}
+
 
 #bigtitle{
 	margin-left:34px;
@@ -324,7 +330,7 @@ body{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .slide-content{
     margin: 0 10px;
   }
@@ -352,6 +358,28 @@ body{
   }
   p{
     text-align: justify;
+  }
+  header h1{
+    font-size: 25px !important;
+  }
+  #head{
+  background: F9AEAE;
+  z-index: 1000;
+  position: relative;
+  }
+  #composers{
+    padding-top: 0px !important;
+  }
+
+  .nav-item a {
+    margin: auto;
+    text-align: center;
+  }
+  .navbar-nav{
+    text-align: center;
+  }
+
+ 
   }
 
 }

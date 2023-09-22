@@ -18,7 +18,7 @@
 
   <div class="container-fluid">
       <!--Bootstrap Header -->
-      <header class="row">
+      <header class="row" >
         <div class="col-md-12 noPadding" id="head">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid" >
@@ -29,7 +29,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html" id="sub">Home</a>
+                    <a class="nav-link active" aria-current="page" href="about.html" id="sub">Home</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="sub">
@@ -175,7 +175,7 @@
         
 
 
-     
+     <br>
      <!-- Accordions -->
       <div class="col-md-12 noPadding">
         <h2 style="margin-left: 35px; padding-top:25px"id="timeline"><b>Timeline &#8987;</b></h2> 
@@ -646,14 +646,31 @@
             },
             });
     </script>
+        
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Your jQuery code goes here
+        $(document).ready(function() {
+            
+            $('.accordion-button').on('click', function() {
+                let scrollPosition = $(window).scrollTop();
+
+                setTimeout(function() {
+                    $(window).scrollTop(scrollPosition);
+                }, 400);
+            });
+        });
+    </script>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <!-- need to be put after jquery since it will use it -->
-  <script src="js/velocity.min.js"></script>
-  <script src="js/velocity.ui.min.js"></script>
+      <!-- need to be put after jquery since it will use it -->
+      <script src="js/velocity.min.js"></script>
+      <script src="js/velocity.ui.min.js"></script>
   
         <!-- Custom JS -->
         <script src="js/custom.js"></script>
+
+
 </body> 
 </html>

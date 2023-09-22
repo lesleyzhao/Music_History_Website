@@ -18,9 +18,12 @@ header{
 #head{
 	background: F9AEAE;
 	z-index: 1000;
-	position: fixed;
+	position:fixed;
 }
 
+#head .navbar{
+  background-color:  #F1ECF5 !important;
+}
 
 #bigtitle{
 	margin-left:34px;
@@ -509,11 +512,6 @@ body{
   .swiper-navBtn{
     display: none;
   }
-
-  .col-md-12{
-  	margin-top:0px;
-
-  }
   .col-md-1{
   	display: flex;
   	flex-direction: row !important;
@@ -536,6 +534,34 @@ body{
   .col-md-5 img{
   	padding: 35px !important;
   	border-radius: 20%;
+  }
+
+  .nav-item a {
+    margin: auto;
+    text-align: center;
+  }
+  header h1{
+    font-size: 25px !important;
+    margin-top: 0px;
+    margin-left: 60px !important;
+  }
+  .navbar-nav{
+    text-align: center;
+  }
+  .col-md-12{
+    margin-top: 30px !important;
+  }
+  header{
+  	margin: auto;
+  	margin-top: -29px !important;
+  }
+  body{
+  	margin-top: 0 !important;
+  }
+  #head{
+  background: F9AEAE;
+  z-index: 1000;
+  position: relative;
   }
 }
 
