@@ -13,7 +13,8 @@ img{
 }
 
 body{
-	background-color: #FCF6F6 !important;
+	background-color: #f7f5f2 !important;
+  /*#f7f5f2 #FCF6F6 */
 }
 
 h1{
@@ -180,13 +181,13 @@ audio{
 }
 
 #head .navbar{
-  background-color: #F2EDF5 !important;
+  background-color: #F1E9DF  !important;
 }
 
 
 #bigtitle{
 	margin-left:34px;
-	font-size: 40px;
+	font-size: 60px;
 }
 
 #sub{
@@ -337,6 +338,9 @@ body{
   
   .swiper-navBtn{
     display: none;
+  }
+  .slide-container{
+    padding-top: 10px !important;
   }
 
   .description{

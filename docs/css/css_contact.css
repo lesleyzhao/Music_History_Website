@@ -7,7 +7,7 @@
 
 body{
 text-align: center;
-background-color:#FCF6F6 !important;
+background-color:#f7f5f2 !important;
 margin: 0;
 }
 
@@ -22,12 +22,13 @@ header{
 }
 
 #head .navbar{
-  background-color:  #F1ECF5 !important;
+  background-color:  #F1E9DF !important;
 }
 
 #bigtitle{
 	margin-left:34px;
-	font-size: 40px;
+	font-size: 60px !important;
+  font-family: weddingFont;
 }
 
 /*nav ul来flex, 不是nav ul a li*/
@@ -189,7 +190,7 @@ img{
 }
 
 body{
-	background-color: #FCF6F6 !important;
+	background-color: #f7f5f2 !important;
 }
 
 h1{
@@ -263,7 +264,7 @@ table{
 
 p{
 	text-indent: 25px;
-	text-align: left;
+	text-align: justify;
 	margin:30px;
 	/*font-family: textFont; */
 }
@@ -355,10 +356,6 @@ audio{
 	position: fixed;
 }
 
-#bigtitle{
-	margin-left:34px;
-	font-size: 40px;
-}
 
 #sub{
 	color:black;
@@ -501,9 +498,9 @@ body{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 	h1{
-		font-size: 2rem !important;
+		font-size: 1.5rem !important;
 		text-align: center !important;
 	}
   .slide-content{
@@ -536,14 +533,16 @@ body{
   	border-radius: 20%;
   }
 
+
   .nav-item a {
     margin: auto;
     text-align: center;
   }
-  header h1{
+  #bigtitle{
     font-size: 25px !important;
+    margin-left: 60px;
     margin-top: 0px;
-    margin-left: 60px !important;
+    margin-right: 0px;
   }
   .navbar-nav{
     text-align: center;
@@ -554,6 +553,7 @@ body{
   header{
   	margin: auto;
   	margin-top: -29px !important;
+    
   }
   body{
   	margin-top: 0 !important;
@@ -562,7 +562,65 @@ body{
   background: F9AEAE;
   z-index: 1000;
   position: relative;
+  width: 100%;
   }
+
+  @media screen and (max-width: 1024px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  
+  .swiper-navBtn{
+    display: none;
+  }
+  .slide-container{
+    padding-top: 10px !important;
+  }
+
+  .description{
+    text-align: justify;
+  }
+  h2{
+    padding-top: 0px;
+  }
+  h1{
+    font-size: 2rem !important;
+    text-align: center !important;
+  }
+  .row{
+    text-align: center !important;
+    align-items: center;
+  }
+  h4{
+    text-align: left !important;
+  }
+  p{
+    text-align: justify;
+  }
+  header h1{
+    font-size: 25px !important;
+  }
+  #head{
+  background: F9AEAE;
+  z-index: 1000;
+  position: relative;
+  }
+  #composers{
+    padding-top: 0px !important;
+  }
+
+  .nav-item a {
+    margin: auto;
+    text-align: center;
+  }
+  .navbar-nav{
+    text-align: center;
+  }
+
+
+ 
+  }
+
 }
 
 
