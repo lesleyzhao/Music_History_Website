@@ -1,3 +1,8 @@
+@font-face {
+	font-family: weddingFont;
+	src: url(../fonts/FrederickatheGreat-Regular.ttf); 
+  }
+
 /* Below is for individual musician pages */
 #p1{
 	/*color: #F0ECCD; */
@@ -30,7 +35,9 @@ nav ul a{
   float: left;
 }
 
-
+#head .navbar{
+	background-color: #F1E9DF  !important;
+  }
 
 #parent{
   display: flex;
@@ -70,7 +77,7 @@ mark{
 
 
 #head{
-	background: F9AEAE;
+	/*background: #F9AEAE;*/
 	z-index: 1000;
 	position: fixed;
 }
@@ -78,7 +85,8 @@ mark{
 
 #bigtitle{
 	margin-left:34px;
-	font-size: 40px;
+	font-size: 60px;
+	font-family: weddingFont;
 }
 
 #sub{
@@ -119,7 +127,6 @@ a:hover{
 	padding:0px;
 	margin:0px;
 }
-
 
 audio{
            max-height: 100%;
