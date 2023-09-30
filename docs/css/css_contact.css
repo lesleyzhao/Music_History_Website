@@ -603,7 +603,7 @@ body{
   #head{
   background: F9AEAE;
   z-index: 1000;
-  position: relative;
+  position: relative !important;
   }
   #composers{
     padding-top: 0px !important;
