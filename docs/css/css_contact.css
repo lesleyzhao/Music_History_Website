@@ -498,7 +498,7 @@ body{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
 	h1{
 		font-size: 1.5rem !important;
 		text-align: center !important;
@@ -553,7 +553,7 @@ body{
   header{
   	margin: auto;
   	margin-top: -29px !important;
-    
+    position: relative;
   }
   body{
   	margin-top: 0 !important;
@@ -616,7 +616,9 @@ body{
   .navbar-nav{
     text-align: center;
   }
-
+  h1{
+    padding-top: 87px;
+  }
 
  
   }
