@@ -50,6 +50,7 @@ jobs:
         uses: actions/download-artifact@v4  # ✅ Ensure compatibility
         with:
           name: github-pages
+          run-id: ${{ github.event.workflow_run.id }}
           path: ./_site
       - name: Deploy to GitHub Pages
         id: deployment
