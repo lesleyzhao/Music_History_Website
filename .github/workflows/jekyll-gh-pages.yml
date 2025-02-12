@@ -49,7 +49,7 @@ jobs:
       - name: Download artifact (Fix potential issue)
         uses: actions/download-artifact@v4  # ✅ Ensure compatibility
         with:
-          name: github-pages
+          name: artifact
           run-id: ${{ github.event.workflow_run.id }}
           path: ./_site
       - name: Deploy to GitHub Pages
