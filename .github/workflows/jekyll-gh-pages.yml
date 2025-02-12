@@ -35,7 +35,7 @@ jobs:
 
       - name: Upload artifact for GitHub Pages
         if: success()  # ✅ Ensures this step runs only if the build succeeds
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           path: ./_site
 
