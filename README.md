@@ -1,5 +1,5 @@
 
-# Music History Educational Website
+# 🎵 Music History Educational Website
 Live link to this website:
 * Knowledge page: [https://lesleyzhao.github.io/Music_History_Website/docs/about.html](https://lesleyzhao.github.io/Music_History_Website/about.html)
 * Contact-me page: [https://lesleyzhao.github.io/Music_History_Website/docs/contact.html](https://lesleyzhao.github.io/Music_History_Website/contact.html)
